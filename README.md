@@ -27,16 +27,6 @@ A **LangChain + LangSmith powered OCR (Optical Character Recognition) pipeline**
 | `uploads/`      | Temporary folder for user-uploaded images       |
 
 ### 🔹 Process Flow
-User Upload Image
-│
-▼
-app.py (UI)
-│
-▼
-main.py (Pipeline)
-│
-▼
-agent/tools.py (OCR extraction)
-│
-▼
-LangSmith Dashboard (Traces, Metrics, Logs)
+
+User Upload Image &rarr; app.py (UI) &rarr; main.py (Pipeline) &rarr; agent/tools.py (OCR extraction) &rarr; LangSmith Logs
+
