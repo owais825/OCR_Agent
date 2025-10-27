@@ -1,0 +1,8 @@
+opencv-python
+pyyaml
+requests
+langchain-core
+langchain-google-genai
+langchain-ollama
+langgraph
+streamlit
