@@ -33,11 +33,11 @@ User Upload Image &rarr; app.py (UI) &rarr; main.py (Pipeline) &rarr; agent/tool
 
 ### 🔹 Mermaid Architecture Diagram
 
-```mermaid
 flowchart TD
-A[User Upload Image] --> B[app.py - Streamlit UI]
-B --> C[main.py - run_pipeline()]
-C --> D[agent/tools.py - extract_text()]
-D --> E[LangSmith Dashboard - Traces, Metrics, Logs]
+    A[User Upload Image] --> B[app.py UI]
+    B --> C[main.py run_pipeline()]
+    C --> D[agent/tools.py extract_text()]
+    D --> E[LangSmith Dashboard]
+
 
 
