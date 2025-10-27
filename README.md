@@ -30,3 +30,14 @@ A **LangChain + LangSmith powered OCR (Optical Character Recognition) pipeline**
 
 User Upload Image &rarr; app.py (UI) &rarr; main.py (Pipeline) &rarr; agent/tools.py (OCR extraction) &rarr; LangSmith Logs
 
+
+### 🔹 Mermaid Architecture Diagram
+
+```mermaid
+flowchart TD
+A[User Upload Image] --> B[app.py - Streamlit UI]
+B --> C[main.py - run_pipeline()]
+C --> D[agent/tools.py - extract_text()]
+D --> E[LangSmith Dashboard - Traces, Metrics, Logs]
+
+
